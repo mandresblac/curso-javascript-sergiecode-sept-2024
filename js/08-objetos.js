@@ -1,3 +1,6 @@
+/* 
+Un objeto en javascript es una estructura de datos formada por pares de clave: valor (key: value), que puede tener propiedades o metodos */
+
 const auto1 = {
   marca: "Ford",
   modelo: "Mustang",
