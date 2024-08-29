@@ -42,7 +42,7 @@ function chequearResultado() {
 }
 
 function reiniciarJuego() {
-  location.reload(); // location.reload() Recarga la página para que el numeroAleatorio cambie
+  location.reload(); // location.reload() Recarga toda la página para que el numeroAleatorio cambie
   numeroEntrada.value = ``;
   numeroEntrada.disabled = false; // false habilita numeroEntrada una vez reiniciado el juego
   totalNumerosIngresados.textContent = "";
